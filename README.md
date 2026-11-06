@@ -28,6 +28,8 @@ streamlit run app.py          # interface web
 ## Exemple
 > **Q :** Combien de jours de télétravail par semaine ?
 > **R :** (réponse + source : `teletravail.pdf`, p. X)
+>
+![Capture de l'application](capture_app.png)
 
 ## Résultats (étape 7)
 - Réussite de la recherche : **À REMPLIR** / 10
