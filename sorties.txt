@@ -1,0 +1,109 @@
+General  horaires.txt                             1 page(s)
+General  livret_accueil.pdf                       2 page(s)
+General  plan_acces.pdf                           2 page(s)
+General  reglement_interieur.pdf                  2 page(s)
+General  restauration.txt                         1 page(s)
+IT       charte_informatique.pdf                  2 page(s)
+IT       demande_materiel.txt                     1 page(s)
+IT       mot_de_passe.txt                         1 page(s)
+IT       securite_emails.txt                      1 page(s)
+IT       vpn.txt                                  1 page(s)
+RH       conges_absences.pdf                      2 page(s)
+RH       formation.txt                            1 page(s)
+RH       mutuelle.pdf                             2 page(s)
+RH       notes_de_frais.pdf                       2 page(s)
+RH       teletravail.pdf                          2 page(s)
+Total : 15 documents, 23 pages
+=== AVANT ===
+ "HORAIRES D'OUVERTURE DES SITES\nAltéa Services — Services généraux — Référence GEN-004 — mise à jour du 1er septembre 2026\n\n1. Horaires des sites\nSite de Paris (siège) : ouvert du lundi au vendredi de 7 h à 20 h. Accueil des visiteurs de 8 h 30 à 18 h.\nSite de Lyon : ouvert du lundi au vendredi de 7 h 30 à 19 h. Accueil des visiteurs de 9 h à 17 h 30.\nSite de Nantes : ouvert du lundi au vendredi de 8 h à 19 h. Accueil des visiteurs de 9 h à 17 h.\nLes sites sont fermés le week-end et les jours fériés. Un accès exceptionnel le samedi peut être demandé aux services généraux au moins 3 jours à l'av"
+
+=== APRÈS ===
+ "HORAIRES D'OUVERTURE DES SITES\nAltéa Services — Services généraux — Référence GEN-004 — mise à jour du 1er septembre 2026\n1. Horaires des sites\nSite de Paris (siège) : ouvert du lundi au vendredi de 7 h à 20 h. Accueil des visiteurs de 8 h 30 à 18 h.\nSite de Lyon : ouvert du lundi au vendredi de 7 h 30 à 19 h. Accueil des visiteurs de 9 h à 17 h 30.\nSite de Nantes : ouvert du lundi au vendredi de 8 h à 19 h. Accueil des visiteurs de 9 h à 17 h.\nLes sites sont fermés le week-end et les jours fériés. Un accès exceptionnel le samedi peut être demandé aux services généraux au moins 3 jours à l'ava"
+
+23 pages -> 23 pages non vides
+Test OK : pas = 4-1 = 3 -> débuts 0, 3, 6 -> abcd / defg / ghij
+ Taille  Chev.  Chunks  Long. moy.
+    200     20     148         187
+    500     50      62         437
+   1000    100      37         717
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   5%|▌         | 10/199 [00:00<00:02, 79.85it/s]Loading weights:   9%|▉         | 18/199 [00:00<00:03, 52.37it/s]Loading weights:  19%|█▊        | 37/199 [00:00<00:01, 93.25it/s]Loading weights:  24%|██▍       | 48/199 [00:00<00:01, 87.01it/s]Loading weights:  29%|██▉       | 58/199 [00:00<00:02, 68.11it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 246.69it/s]
+Dimension d'un vecteur : 384
+[[1.   0.53 0.09 0.19 0.16]
+ [0.53 1.   0.06 0.11 0.19]
+ [0.09 0.06 1.   0.36 0.08]
+ [0.19 0.11 0.36 1.   0.08]
+ [0.16 0.19 0.08 0.08 1.  ]]
+Batches:   0%|          | 0/2 [00:00<?, ?it/s]Batches:  50%|█████     | 1/2 [00:02<00:02,  2.13s/it]Batches: 100%|██████████| 2/2 [00:04<00:00,  2.01s/it]Batches: 100%|██████████| 2/2 [00:04<00:00,  2.03s/it]
+Chunks produits : 62 | indexés : 62
+Nombres stockés : 62 x 384 = 23808
+
+### Combien de jours de télétravail par semaine ?
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  27%|██▋       | 53/199 [00:00<00:00, 495.81it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1861.61it/s]
+  teletravail.pdf p.1 (score 0.696)
+  teletravail.pdf p.1 (score 0.586)
+  conges_absences.pdf p.1 (score 0.578)
+
+### Comment configurer le VPN ?
+  vpn.txt p.1 (score 0.744)
+  vpn.txt p.1 (score 0.739)
+  vpn.txt p.1 (score 0.573)
+
+### Comment me faire rembourser mes frais de déplacement ?
+  notes_de_frais.pdf p.1 (score 0.633)
+  notes_de_frais.pdf p.1 (score 0.579)
+  notes_de_frais.pdf p.1 (score 0.574)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  73%|███████▎  | 145/199 [00:00<00:00, 1337.93it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1598.76it/s]
+--- PROMPT ---
+ Tu es l'assistant documentaire d'Altéa Services. Réponds UNIQUEMENT à partir des extraits ci-dessous. Cite la source (nom du fichier et page) pour chaque information. Si la réponse n'est pas dans les extraits, réponds exactement : « Je n'ai pas trouvé cette information dans la documentation d'Altéa. »
+
+=== EXTRAITS ===
+[Extrait 1] (source : teletravail.pdf, page 1)
+eur.
+2. Nombre de jours autorisés
+Chaque salarié éligible peut télétravailler jusqu'à 2 jours par semaine. Ces jours sont fixés
+avec le manager ; ils ne peuvent pas être reportés d'une semaine sur l'autre.
+Le mardi est un jour de présence obligatoire pour tous les salariés : c'est le jour des réunions
+d'équipe. Aucun télétravail n'est donc possible le mardi.
+À titre exceptionnel (grève des transports, intempéries, alerte pollution), le télétravail peut
+être étendu à toute la semaine sur décision
+
+[Extrait 2] (source : teletravail.pdf, page 1)
+Télétravail
+RH-004 — accord télétravail — en vigueur au 1er septembre 2025
+1. Qui peut télétravailler ?
+Le télétravail est ouvert à tous les salariés en CDI ou en CDD de plus de 6 mois, après une
+période d'ancienneté de 3 mois, dès lors que leur poste le permet. Les postes d'accueil, de
+maintenance sur site et de logistique ne sont pas éligibles.
+Les alternants et les stagiaires peuvent télétravailler 1 jour par semaine, avec l'accord de
+leur tuteur.
+2. Nombre de jours autorisés
+Chaque salarié é
+
+[Extrait 3] (source : teletravail.pdf, page 2)
+ituels, de 9 h 30 à 12 h et de 14 h à 16 h 30 au
+minimum. Il travaille dans un lieu calme, avec une connexion internet fiable, et se connecte
+obligatoirement au VPN de l'entreprise pour accéder aux applications internes.
+Le télétravail depuis l'étranger n'est pas autorisé, sauf accord écrit préalable du service RH.
+Le droit à la déconnexion s'applique : aucune réponse n'est attendue entre 20 h et 8 h, ni le
+week-end.
+
+=== QUESTION ===
+Combien de jours de télétravail par semaine sont autorisés chez Altéa ?
+
+Réponse :
+Traceback (most recent call last):
+  File "C:\Users\userinsta\Downloads\rag_altea\rag_altea\etape6_generation.py", line 37, in <module>
+    print("\n--- RAG ---\n", repondre(q)[0])
+                             ^^^^^^^^^^^
+  File "C:\Users\userinsta\Downloads\rag_altea\rag_altea\etape6_generation.py", line 23, in repondre
+    rep = ollama.chat(model=MODELE_LLM, messages=[{"role": "user", "content": prompt}],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\userinsta\AppData\Local\Programs\Python\Python312\Lib\site-packages\ollama\_client.py", line 391, in chat
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\userinsta\AppData\Local\Programs\Python\Python312\Lib\site-packages\ollama\_client.py", line 203, in _request
+    return cls(**self._request_raw(*args, **kwargs).json())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\userinsta\AppData\Local\Programs\Python\Python312\Lib\site-packages\ollama\_client.py", line 147, in _request_raw
+    raise ResponseError(e.response.text, e.response.status_code) from None
+ollama._types.ResponseError: llama-server process has terminated: exit status 0xc0000409: The system detected an overrun of a stack-based buffer in this application. This overrun could potentially allow a malicious user to gain control of this application. (status code: 500)

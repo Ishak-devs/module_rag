@@ -1,0 +1,5 @@
+base_vectorielle/
+__pycache__/
+*.pyc
+.venv/
+resultats.csv
